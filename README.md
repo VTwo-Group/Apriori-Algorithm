@@ -21,10 +21,12 @@ $Apriori->setMinConf(75);       //Minimum confidence - Percent 1, 2, ..., 100
 $Apriori->setDelimiter(',');    //Delimiter
 ```
 ##dataset.txt
+```txt
 A, B, C, D 
 A, D, C
 B, C
 A, E, C
+```
 ##Coding
 ```php
 <?php   
