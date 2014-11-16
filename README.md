@@ -29,7 +29,7 @@ A, E, C
 ```
 ##Example
 minSup = 2, minConf = 75(%)
-##Coding
+###Coding
 ```php
 <?php   
 include 'class.apriori.php';
@@ -71,15 +71,15 @@ $Apriori->saveFreqItemsets('freqItemsets.txt');
 $Apriori->saveAssociationRules('associationRules.txt');
 ?>
 ```
-##Result
-###Frequent Itemsets
+###Result
+####Frequent Itemsets
 ```txt
 Time: 0 second(s)
 ===============================================================================
 {B,C} = 2
 {A,C,D} = 2
 ```
-###Frequent Itemsets Array
+####Frequent Itemsets Array
 ```txt
 Array
 (
@@ -100,7 +100,7 @@ Array
 
 )
 ```
-###Association Rules
+####Association Rules
 ```txt
 Time: 0 second(s)
 ===============================================================================
@@ -113,7 +113,7 @@ A => C = 100%
 A,D => C = 100%
 C,D => A = 100%
 ```
-###Association Rules Array
+####Association Rules Array
 ```txt
 Array
 (
