@@ -70,13 +70,15 @@ $Apriori->saveAssociationRules('associationRules.txt');
 ?>
 ```
 ##Result
+###Frequent Itemsets
 ```txt
-Frequent Itemsets
 Time: 0 second(s)
 ===============================================================================
 {B,C} = 2
 {A,C,D} = 2
+```
 ###Frequent Itemsets Array
+```txt
 Array
 (
     [0] => Array
@@ -95,7 +97,9 @@ Array
         )
 
 )
+```
 Association Rules
+```txt
 Time: 0 second(s)
 ===============================================================================
 B => C = 100%
@@ -106,7 +110,9 @@ C => A = 75%
 A => C = 100%
 A,D => C = 100%
 C,D => A = 100%
+```
 Association Rules Array
+```txt
 Array
 (
     [B] => Array
