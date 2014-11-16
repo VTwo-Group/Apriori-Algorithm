@@ -98,7 +98,7 @@ Array
 
 )
 ```
-Association Rules
+###Association Rules
 ```txt
 Time: 0 second(s)
 ===============================================================================
@@ -111,7 +111,7 @@ A => C = 100%
 A,D => C = 100%
 C,D => A = 100%
 ```
-Association Rules Array
+###Association Rules Array
 ```txt
 Array
 (
