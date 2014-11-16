@@ -13,7 +13,7 @@ $Apriori = new Apriori();
 setMaxScan(int), setMinSup(int), setMinConf(int), setDelimiter(string), getMinSup(void), getMinConf(void), getMaxScan(void), getDelimiter(void), process(string or array), printFreqItemsets(void), getFreqItemsets(void), printAssociationRules(void), getAssociationRules(void), saveFreqItemsets(string), saveAssociationRules(string)
 
 ##Initialize
-Can optionally override some or all of the following defaults:
+Initialize options:
 ```php
 $Apriori->setMaxScan(20);       //Scan 2, 3, ...
 $Apriori->setMinSup(2);         //Minimum support 1, 2, 3, ...
