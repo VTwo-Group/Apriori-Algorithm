@@ -76,7 +76,7 @@ Time: 0 second(s)
 ===============================================================================
 {B,C} = 2
 {A,C,D} = 2
-Frequent Itemsets Array
+###Frequent Itemsets Array
 Array
 (
     [0] => Array
