@@ -27,6 +27,8 @@ A, D, C
 B, C
 A, E, C
 ```
+##Example
+minSup = 2, minConf = 75(%)
 ##Coding
 ```php
 <?php   
