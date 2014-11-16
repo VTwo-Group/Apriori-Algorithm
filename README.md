@@ -70,8 +70,14 @@ $Apriori->saveAssociationRules('associationRules.txt');
 ?>
 ```
 ##Result
-```html
-<h1>Frequent Itemsets</h1>Time: 0 second(s)<br />===============================================================================<br />{B,C} = 2<br />{A,C,D} = 2<br /><h3>Frequent Itemsets Array</h3>Array
+```txt
+Frequent Itemsets
+Time: 0 second(s)
+===============================================================================
+{B,C} = 2
+{A,C,D} = 2
+Frequent Itemsets Array
+Array
 (
     [0] => Array
         (
@@ -89,7 +95,19 @@ $Apriori->saveAssociationRules('associationRules.txt');
         )
 
 )
-<h1>Association Rules</h1>Time: 0.02 second(s)<br />===============================================================================<br />B => C = 100%<br />D => C = 100%<br />D => A = 100%<br />D => A,C = 100%<br />C => A = 75%<br />A => C = 100%<br />A,D => C = 100%<br />C,D => A = 100%<br /><h3>Association Rules Array</h3>Array
+Association Rules
+Time: 0 second(s)
+===============================================================================
+B => C = 100%
+D => C = 100%
+D => A = 100%
+D => A,C = 100%
+C => A = 75%
+A => C = 100%
+A,D => C = 100%
+C,D => A = 100%
+Association Rules Array
+Array
 (
     [B] => Array
         (
@@ -124,5 +142,4 @@ $Apriori->saveAssociationRules('associationRules.txt');
         )
 
 )
-  
 ```
