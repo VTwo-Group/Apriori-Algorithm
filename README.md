@@ -12,7 +12,7 @@ $Apriori = new Apriori();
 ## Methods
 setMaxScan(int), setMinSup(int), setMinConf(int), setDelimiter(string), getMinSup(void), getMinConf(void), getMaxScan(void), getDelimiter(void), process(string or array), printFreqItemsets(void), getFreqItemsets(void), printAssociationRules(void), getAssociationRules(void), saveFreqItemsets(string), saveAssociationRules(string)
 
-##Initialize
+## Initialize
 Initialize options:
 ```php
 $Apriori->setMaxScan(20);       //Scan 2, 3, ...
@@ -20,16 +20,16 @@ $Apriori->setMinSup(2);         //Minimum support 1, 2, 3, ...
 $Apriori->setMinConf(75);       //Minimum confidence - Percent 1, 2, ..., 100
 $Apriori->setDelimiter(',');    //Delimiter
 ```
-##dataset.txt
+## dataset.txt
 ```txt
 A, B, C, D 
 A, D, C
 B, C
 A, E, C
 ```
-##Example
+## Example
 minSup = 2, minConf = 75(%)
-###Coding
+### Coding
 ```php
 <?php   
 include 'class.apriori.php';
@@ -71,15 +71,15 @@ $Apriori->saveFreqItemsets('freqItemsets.txt');
 $Apriori->saveAssociationRules('associationRules.txt');
 ?>
 ```
-###Result
-####Frequent Itemsets
+### Result
+#### Frequent Itemsets
 ```txt
 Time: 0 second(s)
 ===============================================================================
 {B,C} = 2
 {A,C,D} = 2
 ```
-####Frequent Itemsets Array
+#### Frequent Itemsets Array
 ```txt
 Array
 (
@@ -100,7 +100,7 @@ Array
 
 )
 ```
-####Association Rules
+#### Association Rules
 ```txt
 Time: 0 second(s)
 ===============================================================================
@@ -113,7 +113,7 @@ A => C = 100%
 A,D => C = 100%
 C,D => A = 100%
 ```
-####Association Rules Array
+#### Association Rules Array
 ```txt
 Array
 (
