@@ -1,7 +1,7 @@
 Apriori Algorithm
 ===============
 
-Implementation of the Apriori algorithm in PHP. [Main Page](http://vtwo.org/algorithm/apriori/)
+Implementation of the Apriori algorithm in PHP.
 
 ## Usage
 First step:
